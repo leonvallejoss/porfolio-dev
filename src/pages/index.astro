@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Badge from '../components/Badge.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<section class="w-full lg:w-[740px] mx-auto py-44">
+		<h1 class="text-white text-5xl font-bold flex justify-center flex-row gap-x-4">
+			Hola, soy León Vallejos!
+			<div class="flex justify-center items-center">
+				<Badge>Disponible para trabajar</Badge>
+			</div>
+		</h1>
+		<h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+		 Dolorum quaerat blanditiis voluptatem voluptate temporibus voluptatibus praesentium laborum vel expedita? 
+		 Ea quas voluptate a in rem odit numquam est accusamus cumque!</h2>
+
+		 <ul>
+			<Badge/>
+		 </ul>
+		</section>
+	</main>
+</Layout>
